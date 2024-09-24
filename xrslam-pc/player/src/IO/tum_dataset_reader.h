@@ -7,6 +7,7 @@
 #include <xrslam/extra/image_undistorter.h>
 
 class TUMDatasetReader : public DatasetReader {
+    
   public:
     TUMDatasetReader(const std::string &filename, void *yaml_config);
     NextDataType next() override;
